@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "sweetMoney.app"
-               BlueprintName = "sweetMoney"
-               ReferencedContainer = "container:sweetMoney.xcodeproj">
+               BuildableName = "SweetMoney.app"
+               BlueprintName = "SweetMoney"
+               ReferencedContainer = "container:SweetMoney.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "sweetMoneyTests.xctest"
-               BlueprintName = "sweetMoneyTests"
-               ReferencedContainer = "container:sweetMoney.xcodeproj">
+               BuildableName = "SweetMoneyTests.xctest"
+               BlueprintName = "SweetMoneyTests"
+               ReferencedContainer = "container:SweetMoney.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "sweetMoneyTests.xctest"
-               BlueprintName = "sweetMoneyTests"
-               ReferencedContainer = "container:sweetMoney.xcodeproj">
+               BuildableName = "SweetMoneyTests.xctest"
+               BlueprintName = "SweetMoneyTests"
+               ReferencedContainer = "container:SweetMoney.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "sweetMoney.app"
-            BlueprintName = "sweetMoney"
-            ReferencedContainer = "container:sweetMoney.xcodeproj">
+            BuildableName = "SweetMoney.app"
+            BlueprintName = "SweetMoney"
+            ReferencedContainer = "container:SweetMoney.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "sweetMoney.app"
-            BlueprintName = "sweetMoney"
-            ReferencedContainer = "container:sweetMoney.xcodeproj">
+            BuildableName = "SweetMoney.app"
+            BlueprintName = "SweetMoney"
+            ReferencedContainer = "container:SweetMoney.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "sweetMoney.app"
-            BlueprintName = "sweetMoney"
-            ReferencedContainer = "container:sweetMoney.xcodeproj">
+            BuildableName = "SweetMoney.app"
+            BlueprintName = "SweetMoney"
+            ReferencedContainer = "container:SweetMoney.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
