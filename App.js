@@ -1,46 +1,50 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Alert,
+  Navigator
 } from 'react-native';
+
+import { StackNavigator } from 'react-navigation';
 import ActionButton from 'react-native-action-button';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import HomeScreen from './src/components/HomeScreen'
+//const Earned = require('./src/components/earnedView');
 
-type Props = {};
-export default class App extends Component<Props> {
+
+
+export default class App extends Component {
   render() {
     return (
-      <View style={{flex:1, backgroundColor: '#f3f3f3'}}>
-      <Text style={styles.welcome}>
-         Sweet Money
-        </Text>  
-      <ActionButton buttonColor="rgba(231,76,60,1)">
-        <ActionButton.Item buttonColor='#9b59b6' title="Agregar Ingreso" onPress={() => console.log("notes tapped!")}>
-          <Icon name="md-create" style={styles.actionButtonIcon} />
-        </ActionButton.Item>
-        <ActionButton.Item buttonColor='#3498db' title="Agregar Gasto" onPress={() => {}}>
-          <Icon name="md-notifications-off" style={styles.actionButtonIcon} />
-        </ActionButton.Item>        
-      </ActionButton>
-    </View>
+      <AppStackNavigator />
+    //   <View style={{flex:1, backgroundColor: '#ffffff'}}>
+    //   <Text style={styles.welcome}>
+    //     Sweet Money
+    //   </Text>  
+    //   <ActionButton buttonColor="rgba(231,76,60,1)">
+    //     <ActionButton.Item buttonColor='#41b755' title="Agregar Ingreso" onPress={this.openViewEarned}>
+    //       <Icon name="money" style={styles.actionButtonIcon} />
+    //     </ActionButton.Item>
+    //     <ActionButton.Item buttonColor='#be1e1e' title="Agregar Gasto" onPress={() => {}}>
+    //       <Icon name="hand-scissors-o" style={styles.actionButtonIcon} />
+    //     </ActionButton.Item>        
+    //   </ActionButton>
+    // </View>
     );
   }
+
+  openViewEarned() {
+    
+  }
 }
+
+const AppStackNavigator = StackNavigator({
+  Index: Index
+})
 
 const styles = StyleSheet.create({
   actionButtonIcon: {
